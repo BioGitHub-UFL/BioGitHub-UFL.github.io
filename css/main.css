@@ -1,0 +1,190 @@
+/*Page Formatting */
+body {
+	margin: 60px auto;
+ 	width: 900px;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+/*End Page Formatting */
+
+/*Misc Text*/
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.5em;
+	line-height: 1.4em;
+	color: #333;
+}
+/*End Misc Text*/
+
+/*Navigation Bar */
+nav#topmenu {
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid #d5d5d5;
+}
+#topmenu ul {
+	display: block;
+	list-style:none;
+	width: 600px;
+	margin: 0px auto;
+	padding: 0px;
+}
+#topmenu li {
+	display: inline;
+	float: left;
+	text-align: center;
+	max-height: 40px;
+	margin-right: 20px;
+	font-weight:bold;
+	font-size: 16pt;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+#topmenu a {
+	text-decoration:none;
+	color: #999;
+}
+#topmenu a:hover {	
+	text-decoration: underline;
+}
+/* End Navigation Bar*/
+
+/*Main Body*/
+	/*Set up a container for some text to the left and a helpful box to the right*/
+div#container {
+	width:900px;
+	margin 0 auto;
+}
+	/*Text to the left*/
+article#blurb {
+	width: 600px;
+    margin-right: 10px;
+    float: left;
+    border-right: 1px solid #d5d5d5;
+}	
+#blurb h1 {
+	font-size: 1.4em;
+	color: #333;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+#blurb p {
+	font-size: 1em;
+	color: #333;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+#blurb a {
+	color: #999;
+}
+
+	/*An aside with info about what events are next*/
+aside#next {
+    width: 200px;
+    float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+    padding: 6px 0px;
+    position: relative;
+}
+#next h1 {
+	font-size: 1em;
+	color: #333;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+#next p {
+	font-size: 0.8em;
+	color: #333;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+#next a {
+	color: #999;
+}
+/*End Main Body*/
+
+/*A class to clear the main body to lay down the footer*/
+.clear {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+/*End Clear Class*/	
+
+
+/*Footer*/
+footer#foot{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#foot ul {
+	display: block;
+	width: 400px;
+	padding: 10px;
+	margin: 0px auto;
+	list-style: none;
+	font-weight: bold;
+}
+
+#foot li {
+	display: inline;
+	margin-right: 20px;
+	text-align: center;
+	max-height: 40px;
+	font-size: 0.8em;
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+#foot a {
+	text-decoration: none;
+	color: #999;
+}
+
+#foot a:hover {
+	text-decoration: underline;
+}
+/*End Footer*/
+
+
+
+
+/*Formatting posts for non-about pages*/
+div.posts {
+	width: 850px;
+	margin: 0px auto;
+	border-left: 5px solid #d5d5d5;
+}
+
+div.posts h1 {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 1.5em;
+}
+
+div.posts p {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size: 1em;
+}
+
+div.posts ul {
+	list-style: none;
+}
+
+div.posts li {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	font-size:0.8em;
+}
+
+div.posts a {
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+	color: #999;
+}
+
+div.posts a:hover {
+	text-decoration: underline;
+}
+
+/*End Posts Formatting*/
